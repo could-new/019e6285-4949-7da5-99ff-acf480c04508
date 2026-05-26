@@ -301,10 +301,10 @@ class LKPDScreen extends StatelessWidget {
       appBar: AppBar(title: const Text('Lembar Kerja Peserta Didik (LKPD)')),
       body: ListView(
         padding: const EdgeInsets.all(16.0),
-        children: const [
+        children: [
           Card(
             color: Colors.purple.shade50,
-            child: Padding(
+            child: const Padding(
               padding: EdgeInsets.all(16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
